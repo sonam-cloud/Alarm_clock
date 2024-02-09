@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #656678 !important;
+}
+
+.clock-container {
+    width: 450px;
+    border: 4px solid #90ee90;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 2rem;
+    background-color: #001923;
+}
+
+.time {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.time span:last-child {
+    background: #90ee90;
+    color: #001923;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.setAlarm {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    background-color: #001923;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 10px !important;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #90ee90;
+    margin-right: 5px !important;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+select:focus-visible {
+    outline: none !important;
+}
+
+#setAlarmBtn,
+.deletebtn,
+#stopAlarm {
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #001923;
+    background-color: #90ee90;
+    border: 1px solid #90ee90;
+    margin-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#stopAlarm {
+    display: none;
+    margin: 1rem auto 0;
+}
+
+#alarm-title {
+    padding-top: 10px;
+    margin: 1.5rem 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0;
+}
+
+.listOfAlarms {
+    color: #fff;
+    margin: 14px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.alarmLog {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
