@@ -4,7 +4,6 @@
 
 <p>The application is developed using HTML, CSS and Vanilla JS</p>
 
-<p>Link to the API being used to fetch the data :https://developer.marvel.com/</p>
 <p>Github link : https://github.com/sonam-cloud/Alarm_clock</p>
 <p>Host link : https://sonam-cloud.github.io/Alarm_clock/</p>
 
